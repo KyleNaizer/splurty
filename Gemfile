@@ -32,7 +32,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Use twitter bootstrap with sass pre-compiler
 gem 'bootstrap-sass', '~> 3.3.4'
+
+gem 'simple_form'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
